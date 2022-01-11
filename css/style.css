@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+body
+{
+	background-color: #1F5C41;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu li
+{
+	display: inline-block;
+}
+ul.menu{
+	text-align: center;
+	background-color: #0B1922;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+ul.menu li a.active
+{
+	color: #1F5C41;
+	background-color: #A07DD4;
+}
+
+ul.menu li a:hover
+{
+	color: white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+ul.menu li a
+{
+	text-decoration: none;
+	color: gold;
+	font: 30px "Varela Round";
+	display: inline-block;
+	padding: 10px 40px;
+}
+
+div.container{
+	background-color: #A07DD4;
+	max-width: 75%;
+	height:800px; 	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.form-container{
+	box-sizing: border-box;
+	border: 2px solid white;
+	background-color: #A07DD4;
+	position:relative;
+	width: 625px;
+	height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+div.part1
+{
+	background-color: #A07DD4;
+	border: 2px solid white;
+	height: 250px;
+	width: 617px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+div.crust
+{
+	width: 560px;
+	height: 63px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+div.size{
+	width: 150px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.toppings{
+	width: 535px;
+	height: 85px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.part2
+{
+	background-color: #A07DD4;
+	border: 2px solid white;
+	height: 292px;
+	width: 617px;
+	position: absolute;
+	left: 0px;
+	top: 250px;
+}
+
+div.form-paragraph
+{
+	background-color: #A07DD4;
+	max-width: 75%;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.form-rows
+{
+	margin: 5px;
+}
+
+div.center
+{
+	width: 400px;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left
+{
+	float: left;
+	margin-right: 5px;
+}
+
+.right
+{
+	float: right;
+	margin-left: 5px;
+}
+
+input.mark
+{
+	margin: 0 2px 0 5px;
+}
+
+input.button
+{
+	height: 32px;
+	width: 75px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input.address
+{
+	width: 537px;
+}
+p.about{
+	margin: 10px;
+	font: "Varela Round";
+	text-align: left;
+	font-size: 2.0vw
+}
+h1
+{
+	background-color: #162141;
+	font: "Varela Round";
+	color: white;
+	text-align: center;
+}

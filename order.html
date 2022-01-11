@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jeff's Pizzeria</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+	</head>
+	
+	<body>
+		<h1>Order a Pizza</h1>
+		<ul class="menu">
+			<li><a href="index.html">Home</a></li>	
+			<li><a href="contact.html">Contact</a></li>
+			<li><a class="active" href="order.html">Order</a></li>
+			<li><a href="about.html">About Us</a></li>
+		</ul>
+		<div class="form-paragraph">
+			<img class="right" src="img/dough.PNG" alt="WetPizza1" height="200" width="300">
+			
+			<p class="about">
+				Hello, please order your pizza below. here is an image of hydrating dough to help you determine your crust preference. Crust can never be too wet. Please let us know if you would like your pizza dunked in a bucket of water in the comments box, thank you.
+			</p>
+		</div>
+		<div class="form-container">
+			<form method="post" action="http://www.stonecoldprofessor.com/1430/pizza-form/order-process.php">
+				<div class="part1">
+					<h1>Order</h1>
+					<div class="crust">
+						<p class="left">Crust: </p><input class="mark" type="radio" name="crust" value="moist">Moist 
+						<input class="mark" type="radio" name="crust" value="barely wet">Barely Wet 
+						<input class="mark" type="radio" name="crust" value="damp">Damp 
+						<input class="mark" type="radio" name="crust" value="soggy">Soggy 
+						<input class="mark" type="radio" name="crust" value="kinda wet">Kinda Wet 
+						<input class="mark" type="radio" name="crust" value="wet">Wet 
+						<input class="mark" type="radio" name="crust" value="extra wet">Extra Wet 
+						<input class="mark" type="radio" name="crust" value="extremely wet">Extremely Wet 
+						<input class="mark" type="radio" name="crust" value="basically water">Basically Water 
+					</div>
+					<div class="toppings">
+						<p class="left">Toppings: </p><input class="mark" type="checkbox" name="toppings[]" value="pepperoni">Pepperoni
+						<input class="mark" type="checkbox" name="toppings[]" value="olives">Olives
+						<input class="mark" type="checkbox" name="toppings[]" value="sausage">Sausage
+						<input class="mark" type="checkbox" name="toppings[]" value="jalepenos">Jalepenos
+						<input class="mark" type="checkbox" name="toppings[]" value="bacon">Bacon
+						<input class="mark" type="checkbox" name="toppings[]" value="pineapple">Pineapple
+						<input class="mark" type="checkbox" name="toppings[]" value="spinach">Spinach
+						<input class="mark" type="checkbox" name="toppings[]" value="ham">Ham
+						<input class="mark" type="checkbox" name="toppings[]" value="onion">Onion
+						<input class="mark" type="checkbox" name="toppings[]" value="garlic">Garlic
+						<input class="mark" type="checkbox" name="toppings[]" value="chicken">Chicken
+						<input class="mark" type="checkbox" name="toppings[]" value="extra cheese">Extra Cheese
+						<input class="mark" type="checkbox" name="toppings[]" value="peppers">Peppers
+						<input class="mark" type="checkbox" name="toppings[]" value="tomatoes">Tomatoes
+						<input class="mark" type="checkbox" name="toppings[]" value="beef">Beef
+						<input class="mark" type="checkbox" name="toppings[]" value="salami">Salami
+						<input class="mark" type="checkbox" name="toppings[]" value="anchovies">Anchovies
+						<input class="mark" type="checkbox" name="toppings[]" value="pesto">Pesto
+						<input class="mark" type="checkbox" name="toppings[]" value="more water">More Water!
+					</div>
+					
+					<div class="size">
+						<p class="left">Size: </p>
+						<select name="size">
+							<option value="miniscule">Miniscule</option>	
+							<option value="tiny">Tiny</option>	
+							<option value="small">Small</option>	
+							<option value="medium">Medium</option>	
+							<option value="average">Average</option>	
+							<option value="large">Large</option>
+							<option value="extra large">Extra Large</option>
+							<option value="gigantic">Gigantic</option>
+							<option value="humongous">Humongous</option>
+							<option value="world eater">World Eater</option>
+						</select>
+					</div>
+				</div>
+				<div class="part2">
+					<h1>Customer Information: </h1>
+					<div class="form-rows">
+						<input name="first" type="text" placeholder="First Name">
+						<input name="last" type="text" placeholder="Last Name">
+					</div>
+					<div class="form-rows">
+						<input class="address" name="add1" type="text" placeholder="Address Line 1" required>
+					</div>
+					<div class="form-rows">
+						<input class="address" name="add2" type="text" placeholder="Address Line 2">
+					</div>
+					<div class="form-rows">
+						<input name="city" type="text" placeholder="City" required>
+						<select name="state">
+							<option value="Alabama">Alabama</option>	
+							<option value="Alaska">Alaska</option>	
+							<option value="Arizona">Arizona</option>	
+							<option value="Arkansas">Arkansas</option>	
+							<option value="California">California</option>	
+							<option value="Colorado">Colorado</option>
+							<option value="Connecticut">Connecticut</option>
+							<option value="Delaware">Delaware</option>
+							<option value="Florida">Florida</option>
+							<option value="Georgia">Georgia</option>
+							<option value="Hawaii">Hawaii</option>
+							<option value="Idaho">Idaho</option>
+							<option value="Illinois">Illinois</option>
+							<option value="Indiana">Indiana</option>
+							<option value="Iowa">Iowa</option>
+							<option value="Kansas">Kansas</option>
+							<option value="Kentucky">Georgia</option>
+							<option value="Louisiana">Louisiana</option>
+							<option value="Maine">Maine</option>
+							<option value="Maryland">Maryland</option>
+							<option value="Massachusetts">Massachusetts</option>
+							<option value="Michigan">Michigan</option>
+							<option value="Minnesota">Minnesota</option>
+							<option value="Mississippi">Mississippi</option>
+							<option value="Missouri">Missouri</option>
+							<option value="Montana">Montana</option>
+							<option value="Nebraska">Nebraska</option>
+							<option value="Nevada">Nevada</option>
+							<option value="New Hampshire">New Hampshire</option>
+							<option value="New Jersey">New Jersey</option>
+							<option value="New Mexico">New Mexico</option>
+							<option value="New York">New York</option>
+							<option value="North Carolina">North Carolina</option>
+							<option value="North Dakota">North Dakota</option>
+							<option value="Ohio">Ohio</option>
+							<option value="Oklahoma">Oklahoma</option>
+							<option value="Oregon">Oregon</option>
+							<option value="Pennsylvania">Pennsylvania</option>
+							<option value="Rhode Island">Rhode Island</option>
+							<option value="South Carolina">South Carolina</option>
+							<option value="South Dakota">South Dakota</option>
+							<option value="Tennessee">Tennessee</option>
+							<option value="Texas">Texas</option>
+							<option value="Utah">Utah</option>
+							<option value="Vermont">Vermont</option>
+							<option value="Virginia">Virginia</option>
+							<option value="Washington">Washington</option>
+							<option value="West Virginia">West Virginia</option>
+							<option value="Wisconsin">Wisconsin</option>
+							<option value="Wyoming">Wyoming</option>
+							
+						</select>
+						<input name="zip" type="text" placeholder="Zip Code" required>
+					</div>
+					<div class="form-rows">
+						<input name="phone" type="text" placeholder="Phone Number" required>
+						<input name="email" type="text" placeholder="Email" required>
+					</div>
+					<div class="form-rows">
+						<textarea name="comments" rows="5" cols="83" placeholder="Additional Requests"></textarea>
+					</div>
+					<div class="form-rows">
+						<input class="button" type="submit"  value="Submit" >
+						<input class="button" type="reset"  value="Reset" >
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
